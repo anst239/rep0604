@@ -1,9 +1,0 @@
-program n05;
-var
-  a, b, c, d:integer;
-begin
-  read(a, b, c, d);
-  if (a=b) and (b=c) and (c=d) then writeln('YES')
-  else writeln('NO');
-  readln;
-end.
